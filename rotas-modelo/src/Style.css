@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+figure {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.filme {
+  width: 90vw;
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 300px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+  line-height: 100px;
+}
+
+.menu_principal {
+  display: flex;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+.menu_principal a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.conteiner_content {
+  background: olive;
+  width: 80vw;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: auto;
+}
