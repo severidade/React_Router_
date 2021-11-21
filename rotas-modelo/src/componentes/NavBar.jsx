@@ -7,6 +7,7 @@ class NavBar extends React.Component {
       <nav className="menu_principal">
         <Link to="/">Home</Link>
         <Link to="/Sobre">Sobre</Link>
+        <Link to="/ApiFilmes">Api de Filmes</Link>
         <Link to="/Contato">Contato</Link>
       </nav>
     );

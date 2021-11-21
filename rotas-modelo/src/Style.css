@@ -22,7 +22,7 @@ img {
 }
 
 .filme {
-  width: 90vw;
+  width: 100%;
   max-width: 900px;
   margin: auto;
   display: grid;
